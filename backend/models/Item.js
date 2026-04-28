@@ -17,7 +17,7 @@ const itemSchema = new mongoose.Schema(
       required: [true, "Price is required"],
       min: [0, "Price cannot be negative"],
     },
-    Warranty: {
+    warranty: {
       type: Number,
       required: [true, "Warranty Period  is required"],
       min: [0, "Warranty Period cannot be negative"],
